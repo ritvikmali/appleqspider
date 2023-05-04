@@ -1,0 +1,404 @@
+body{
+    font-family: 'Comme', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250,250,250);
+}
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(37, 36, 36);
+    align-items: center;
+    padding-top: 7px;
+    position: fixed;
+    z-index: 999;
+    border-radius: 1px;
+    opacity: 0.8;
+}
+
+.navbar li{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: rgb(186,186,186);
+    font-size: 12px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+.navbar .logo{
+    width: 18px;
+}
+
+.nav-line{
+    display: inline-block;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav-line p{
+    margin-top: 60px;
+    padding-left: 328px;
+    
+}
+
+.image1{
+    display: flex;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.image1 .img-1 {
+    width: 100%;
+    height: 600px;
+}
+
+
+.image1 a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 167px;
+    color: rgb(37,137,230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+.image1 .l1{
+    position: absolute;
+    left: 610px;
+}
+
+.image1 .s1{
+    position: absolute;
+    left: 730px
+}
+
+.image1 .l2{
+    position: absolute;
+    left: 800px;
+}
+
+.image1 .s2{
+    position: absolute;
+    left: 845px
+}
+
+.image1 a:hover{
+    text-decoration: underline;
+}
+.image1 span{
+    margin-top: 167px;
+    margin-left: 2px;
+    font-size: 23px;
+    color: rgb(37,137,230);
+}
+
+.image2{
+    font-family:'Noto Sans', sans-serif;;
+    
+    color: black;
+    background-color: rgb(250,250,250);
+}
+
+.image2 p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.image2 h1{
+    padding-top: 45px;
+    font-size: 50px;
+    text-align: center;
+}
+.image2 a{
+    margin-left: -40px;
+    text-decoration: none;
+    color: rgb(37,137,230);
+    font-size: 23px;
+}
+
+.image2 #buy-link{
+    margin-left: 20px;
+}
+
+.image2 a:hover{
+    text-decoration: underline;
+}
+
+.image2 .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image2 span{
+    color: rgb(37,137,230);
+    font-size: 23px;
+}
+
+.image3 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image3 a{
+    display: flex;
+    text-decoration: none;
+    margin-top: -498px;
+    color: rgb(37,137,230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.image3 span{
+    color: rgb(37,137,230);
+    margin-top: 193px;
+    font-size: 23px;
+}
+
+.image3 .l1{
+    position: absolute;
+    left: 630px;
+}
+
+.image3 .s1{
+    position: absolute;
+    left: 755px;
+}
+
+.image3 .l2{
+    position: absolute;
+    left: 820px;
+}
+
+.image3 .s2{
+    position: absolute;
+    left: 865px
+}
+
+.image3 a:hover{
+    text-decoration: underline;
+}
+
+
+.image4 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image4 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(37,137,230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.image4 span{
+    color: rgb(37,137,230);
+    margin-top: 178px;
+    font-size: 23px;
+}
+
+.image4 .l1{
+    position: absolute;
+    margin-top: -440px;
+    left: 200px;
+}
+
+.image4 .s1{
+    position: absolute;
+    margin-top: 151px;
+    left: 515px;
+}
+
+.image4 .l2{
+    position: absolute;
+    margin-top: -50px;
+    left: 1050px;
+}
+
+.image4 .s2{
+    position: absolute;
+    margin-top: 542px;
+    left: 1175px;
+}
+
+.image4 a:hover{
+    text-decoration: underline;
+}
+
+.image5 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image5 a{
+    display: flex;
+    text-decoration: none;
+    margin-top: -458px;
+    color: rgb(37,137,230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.image5 span{
+    color: rgb(37,137,230);
+    margin-top: 145px;
+    font-size: 23px;
+}
+
+.image5 .l1{
+    position: absolute;
+    left: 264px;
+}
+
+.image5 .s1{
+    position: absolute;
+    left: 390px;
+}
+
+.image5 .l2{
+    position: absolute;
+    left: 438px;
+}
+
+.image5 .s2{
+    position: absolute;
+    left: 485px;
+}
+
+.image5 .l3{
+    position: absolute;
+    right: 406px;
+}
+
+.image5 .s3{
+    position: absolute;
+    right: 390px;
+}
+
+.image5 .l4{
+    position: absolute;
+    right: 291px;
+}
+
+.image5 .s4{
+    position: absolute;
+    right: 273px;
+}
+
+.image5 a:hover{
+    text-decoration: underline;
+}
+
+
+.image6 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image6 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(37,137,230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.image6 span{
+    color: rgb(37,137,230);
+    font-size: 23px;
+}
+
+.image6 .l1{
+    position: absolute;
+    margin-top: -388px;
+    left: 263px;
+}
+
+.image6 .s1{
+    position: absolute;
+    margin-top: 205px;
+    left: 458px;
+}
+
+.image6 .l2{
+    position: absolute;
+    margin-top: -440px;
+    right: 406px;
+}
+
+.image6 .s2{
+    position: absolute;
+    margin-top: 154px;
+    right: 390px;
+}
+
+.image6 .l3{
+    position: absolute;
+    margin-top: -440px;
+    right: 251px;
+}
+
+.image6 .s3{
+    position: absolute;
+    margin-top: 153px;
+    right: 236px;
+}
+
+
+.footer{
+    margin: auto;
+    width: 63%;
+}
+.footer p{
+    font-size: 13px;
+    font-family: 'Comme', sans-serif;
+    font-weight: bold;
+}
+
+.footer #links{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+}
+.footer #links a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: rgb(113, 113, 115);
+    font-size: 12px;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+.end{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+.end hr{
+    margin: 0px;
+    border-top: 1px solid rgb(113, 113, 115);
+}
+.end p{
+    display: inline-block;
+    font-weight: 100;
+    margin: 10px;
+}
+.end #p2{
+    margin-left: 30px;
+}
+.end #p3{
+    margin-left: 100px;
+}
+.end span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
