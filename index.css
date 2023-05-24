@@ -1,21 +1,25 @@
+/* html{
+    font-size: 100%;
+} */
+
 body{
     font-family: 'Comme', sans-serif;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     background-color: rgb(250,250,250);
 }
 
 .navbar{
     width: 100%;
-    height: 45px;
+    height: 4.5rem;
     background-color: rgb(37, 36, 36);
     align-items: center;
-    padding-top: 7px;
+    padding-top: .7rem;
     position: fixed;
     z-index: 999;
-    border-radius: 1px;
+    border-radius: .1rem;
     opacity: 0.8;
 }
 
@@ -24,77 +28,77 @@ body{
     align-items: center;
     text-align: center;
     color: rgb(186,186,186);
-    font-size: 12px;
-    padding-left: 35px;
+    font-size: 1.2rem;
+    padding-left: 3.5rem;
     cursor: pointer;
 }
 
 .navbar .logo{
-    width: 18px;
+    width: 1.8rem;
 }
 
 .nav-line{
     display: inline-block;
-    height: 40px;
-    font-size: 15px;
+    height: 4.0rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .nav-line p{
-    margin-top: 60px;
-    padding-left: 328px;
+    margin-top: 6.0rem;
+    padding-left: 32.8rem;
     
 }
 
 .image1{
     display: flex;
-    padding-top: 10px;
+    padding-top: 1rem;
     cursor: pointer;
 }
 
 .image1 .img-1 {
     width: 100%;
-    height: 600px;
+    max-height: 60rem;
 }
 
 
 .image1 a{
     display: flex;
     text-decoration: none;
-    margin-top: 167px;
+    margin-top: 16.7rem;
     color: rgb(37,137,230);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    margin-bottom: 0px;
+    font-size: 2.3rem;
+    margin-bottom: 0rem;
 }
 
 .image1 .l1{
     position: absolute;
-    left: 610px;
+    left: 61rem;
 }
 
 .image1 .s1{
     position: absolute;
-    left: 730px
+    left: 73rem
 }
 
 .image1 .l2{
     position: absolute;
-    left: 800px;
+    left: 80rem;
 }
 
 .image1 .s2{
     position: absolute;
-    left: 845px
+    left: 84.5rem
 }
 
 .image1 a:hover{
     text-decoration: underline;
 }
 .image1 span{
-    margin-top: 167px;
-    margin-left: 2px;
-    font-size: 23px;
+    margin-top: 16.7rem;
+    margin-left: .2rem;
+    font-size: 2.3rem;
     color: rgb(37,137,230);
 }
 
@@ -106,24 +110,24 @@ body{
 }
 
 .image2 p{
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 .image2 h1{
-    padding-top: 45px;
-    font-size: 50px;
+    padding-top: 4.5rem;
+    font-size: 5rem;
     text-align: center;
 }
 .image2 a{
-    margin-left: -40px;
+    margin-left: -4rem;
     text-decoration: none;
     color: rgb(37,137,230);
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image2 #buy-link{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .image2 a:hover{
@@ -137,7 +141,7 @@ body{
 }
 .image2 span{
     color: rgb(37,137,230);
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image3 img{
@@ -148,36 +152,36 @@ body{
 .image3 a{
     display: flex;
     text-decoration: none;
-    margin-top: -498px;
+    margin-top: -49.8rem;
     color: rgb(37,137,230);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image3 span{
     color: rgb(37,137,230);
-    margin-top: 193px;
-    font-size: 23px;
+    margin-top: 19.3rem;
+    font-size: 2.3rem;
 }
 
 .image3 .l1{
     position: absolute;
-    left: 630px;
+    left: 63rem;
 }
 
 .image3 .s1{
     position: absolute;
-    left: 755px;
+    left: 75.5rem;
 }
 
 .image3 .l2{
     position: absolute;
-    left: 820px;
+    left: 82rem;
 }
 
 .image3 .s2{
     position: absolute;
-    left: 865px
+    left: 86.5rem
 }
 
 .image3 a:hover{
@@ -195,37 +199,37 @@ body{
     text-decoration: none;
     color: rgb(37,137,230);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image4 span{
     color: rgb(37,137,230);
-    margin-top: 178px;
-    font-size: 23px;
+    margin-top: 17.8rem;
+    font-size: 2.3rem;
 }
 
 .image4 .l1{
     position: absolute;
-    margin-top: -440px;
-    left: 200px;
+    margin-top: -44rem;
+    left: 20rem;
 }
 
 .image4 .s1{
     position: absolute;
-    margin-top: 151px;
-    left: 515px;
+    margin-top: 151rem;
+    left: 51.5rem;
 }
 
 .image4 .l2{
     position: absolute;
-    margin-top: -50px;
-    left: 1050px;
+    margin-top: -5rem;
+    left: 105rem;
 }
 
 .image4 .s2{
     position: absolute;
-    margin-top: 542px;
-    left: 1175px;
+    margin-top: 54.2rem;
+    left: 117.5rem;
 }
 
 .image4 a:hover{
@@ -240,56 +244,56 @@ body{
 .image5 a{
     display: flex;
     text-decoration: none;
-    margin-top: -458px;
+    margin-top: -458rem;
     color: rgb(37,137,230);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 23rem;
 }
 
 .image5 span{
     color: rgb(37,137,230);
-    margin-top: 145px;
-    font-size: 23px;
+    margin-top: 14.5rem;
+    font-size: 2.3rem;
 }
 
 .image5 .l1{
     position: absolute;
-    left: 264px;
+    left: 26.4rem;
 }
 
 .image5 .s1{
     position: absolute;
-    left: 390px;
+    left: 39rem;
 }
 
 .image5 .l2{
     position: absolute;
-    left: 438px;
+    left: 43.8rem;
 }
 
 .image5 .s2{
     position: absolute;
-    left: 485px;
+    left: 48.5rem;
 }
 
 .image5 .l3{
     position: absolute;
-    right: 406px;
+    right: 40.6rem;
 }
 
 .image5 .s3{
     position: absolute;
-    right: 390px;
+    right: 39rem;
 }
 
 .image5 .l4{
     position: absolute;
-    right: 291px;
+    right: 29.1rem;
 }
 
 .image5 .s4{
     position: absolute;
-    right: 273px;
+    right: 27.3rem;
 }
 
 .image5 a:hover{
@@ -307,48 +311,48 @@ body{
     text-decoration: none;
     color: rgb(37,137,230);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image6 span{
     color: rgb(37,137,230);
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .image6 .l1{
     position: absolute;
-    margin-top: -388px;
-    left: 263px;
+    margin-top: -38.8rem;
+    left: 26.3rem;
 }
 
 .image6 .s1{
     position: absolute;
-    margin-top: 205px;
-    left: 458px;
+    margin-top: 205rem;
+    left: 45.8rem;
 }
 
 .image6 .l2{
     position: absolute;
-    margin-top: -440px;
-    right: 406px;
+    margin-top: -44rem;
+    right: 40.6rem;
 }
 
 .image6 .s2{
     position: absolute;
-    margin-top: 154px;
-    right: 390px;
+    margin-top: 15.4rem;
+    right: 39rem;
 }
 
 .image6 .l3{
     position: absolute;
-    margin-top: -440px;
-    right: 251px;
+    margin-top: -44rem;
+    right: 25.1rem;
 }
 
 .image6 .s3{
     position: absolute;
-    margin-top: 153px;
-    right: 236px;
+    margin-top: 15.3rem;
+    right: 23.6rem;
 }
 
 
@@ -357,7 +361,7 @@ body{
     width: 63%;
 }
 .footer p{
-    font-size: 13px;
+    font-size: 1.3rem;
     font-family: 'Comme', sans-serif;
     font-weight: bold;
 }
@@ -366,13 +370,13 @@ body{
     float: left;
     width: auto;
     height: auto;
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 .footer #links a{
-    padding-top: -10px;
+    padding-top: -1rem;
     text-decoration: none;
     color: rgb(113, 113, 115);
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 #links a:hover{
@@ -384,19 +388,19 @@ body{
     width: 100%;
 }
 .end hr{
-    margin: 0px;
-    border-top: 1px solid rgb(113, 113, 115);
+    margin: 0rem;
+    border-top: .1rem solid rgb(113, 113, 115);
 }
 .end p{
     display: inline-block;
     font-weight: 100;
-    margin: 10px;
+    margin: 1rem;
 }
 .end #p2{
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 .end #p3{
-    margin-left: 100px;
+    margin-left: 10rem;
 }
 .end span:hover{
     text-decoration: underline;
